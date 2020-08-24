@@ -333,3 +333,8 @@ i {
     left: -300%;
   }
 }
+/* footer */
+
+footer .fab {
+  color: #100d0b;
+}
