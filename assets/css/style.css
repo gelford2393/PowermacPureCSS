@@ -333,6 +333,21 @@ i {
     left: -300%;
   }
 }
+/* features */
+#features .menu-bar {
+  padding: 50px;
+}
+#features .features-image {
+  width: 90%;
+}
+
+#features p {
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 0.065em;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
 /* footer */
 
 footer .fab {
