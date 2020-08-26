@@ -40,8 +40,23 @@ nav {
   font-family: sans-serif;
 }
 .page-header .search-bar .search-box input[type="text"] {
-  border-radius: 15px;
-  height: 25px;
+  padding: 5px 12px;
+  background-color: transparent;
+  transition: transform 250ms ease-in-out;
+  font-size: 14px;
+  line-height: 16px;
+  color: #575756;
+  background-color: transparent;
+  border-radius: 10px;
+  outline: none;
+}
+.search-box i {
+  font-size: 18px;
+  color: #ffffff;
+}
+.position-login i {
+  color: #ffffff;
+  width: 24px;
 }
 .container-full {
   color: #ffffff;
@@ -120,12 +135,9 @@ nav {
 a {
   color: #100d0b;
 }
-i {
-  color: #ffffff;
-  width: 24px;
-}
+
 .search-box {
-  padding-top: 30px;
+  padding-top: 25px;
 }
 .site-logo img {
   width: 50px;
@@ -186,6 +198,7 @@ i {
     padding-top: 5px;
     cursor: pointer;
   }
+
   .nav-collapse {
     display: none;
   }
@@ -304,6 +317,58 @@ i {
     font-size: 14px;
     font-weight: bolder;
   }
+  .checkbtn {
+    display: block;
+    padding-top: 5px;
+    cursor: pointer;
+  }
+
+  .nav-collapse {
+    display: none;
+  }
+  .static-nav {
+    text-align: center;
+  }
+  .list-inline span {
+    display: none;
+  }
+  .position-logo {
+    text-align: center;
+    padding-right: 50px;
+  }
+  .search-box input[type="text"] {
+    display: none;
+  }
+  .search-box .fa-search {
+    display: none;
+  }
+
+  .container {
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  .features-image {
+    width: 100%;
+  }
+  #features .menu-bar {
+    padding: 100px 0 40px 0;
+    text-align: center;
+  }
+  #progress .menu-bar {
+    padding-bottom: 0;
+  }
+  #progress .text-left {
+    padding-bottom: 50px;
+    padding-left: 10px;
+  }
+  footer ul {
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+  hr {
+    min-width: 95%;
+  }
 }
 
 /* Large devices (desktops, less than 1200px) */
@@ -390,8 +455,11 @@ i {
   padding: 0 5px;
 }
 hr {
-  max-width: 80%;
+  max-width: 95%;
   margin: auto;
+  font-weight: 100;
+  color: #261e12;
+  margin: 100px auto;
 }
 #progress .menu-bar {
   text-align: center;
@@ -417,7 +485,7 @@ hr {
 footer .menu-bar {
   padding: 45px;
   line-height: 2;
-  font-weight: 500;
+  font-weight: 700;
 }
 footer .fab {
   color: #100d0b;
